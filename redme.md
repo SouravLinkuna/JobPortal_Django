@@ -1,0 +1,1 @@
+rm -rf unit.xml; python manage.py makemigrations && python manage.py migrate --run-syncdb && python manage.py test
